@@ -1,0 +1,99 @@
+{
+  "campaign": {
+    "name": "Campaign Juniper Spear 2026",
+    "version": 1,
+    "lastApprovedMission": null,
+    "lastUpdated": "YYYY-MM-DDTHH:MM:SSZ"
+  },
+  "missions": [
+    {
+      "missionNumber": "M2",
+      "title": "Dealbreaker",
+      "status": "approved",
+      "result": "partial_success",
+      "date": "YYYY-MM-DD",
+      "objectives": [
+        {
+          "name": "Seize facilitator compound",
+          "status": "completed",
+          "notes": ""
+        }
+      ],
+      "friendlyLosses": {
+        "kia": 0,
+        "wia": 0,
+        "missing": 0,
+        "vehiclesLost": [],
+        "aircraftLost": []
+      },
+      "hostileLosses": {
+        "kiaEstimate": 0,
+        "captured": 0,
+        "vehiclesDestroyed": []
+      },
+      "intelRecovered": [
+        {
+          "type": "document",
+          "summary": "",
+          "confidence": "high"
+        }
+      ],
+      "continuityHooks": [
+        ""
+      ],
+      "approval": {
+        "reviewedBy": "",
+        "approvedOn": "YYYY-MM-DDTHH:MM:SSZ"
+      }
+    }
+  ],
+  "networkState": {
+    "enemyCapabilities": [
+      {
+        "name": "",
+        "status": "active",
+        "notes": ""
+      }
+    ],
+    "knownLocations": [
+      {
+        "name": "",
+        "type": "compound",
+        "status": "confirmed",
+        "notes": ""
+      }
+    ],
+    "namedActors": [
+      {
+        "name": "",
+        "affiliation": "hostile",
+        "role": "",
+        "status": "at_large",
+        "confidence": "medium",
+        "notes": ""
+      }
+    ],
+    "unresolvedThreads": [
+      ""
+    ]
+  },
+  "friendlyState": {
+    "taskForceStatus": {
+      "combatPower": "effective",
+      "mobility": "effective",
+      "sustainment": "stable"
+    },
+    "constraints": [
+      ""
+    ]
+  },
+  "approvalQueue": {
+    "disputedFacts": [
+      {
+        "claim": "",
+        "reason": "",
+        "decision": "pending"
+      }
+    ]
+  }
+}
