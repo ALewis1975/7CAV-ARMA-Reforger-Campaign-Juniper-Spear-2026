@@ -26,6 +26,9 @@ List every source used to build this intake.
 
 - Forum AAR master post:
 - Forum AAR element responses:
+- Approved OPORD or FRAGO:
+- Controller packet:
+- Controller pace card:
 - Staff summary:
 - Zeus or GM notes:
 - Casualty summary:
@@ -72,6 +75,14 @@ Record the major moments in rough chronological order.
 - Enemy actions that changed the mission:
 - Deviations from the original plan:
 - Unexpected friction:
+
+## Controller execution review
+
+- Planned tempo model:
+- Controller interventions that matched plan:
+- Controller interventions that diverged from plan:
+- Trigger points used:
+- Drift or acceleration issues for review:
 
 ## Element-level observations from AAR responses
 
