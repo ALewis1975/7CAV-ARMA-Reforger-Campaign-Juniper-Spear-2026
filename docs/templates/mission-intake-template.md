@@ -6,8 +6,17 @@
 - Mission number:
 - Mission title:
 - Mission date:
+- Start time (Zulu):
+- Endex time (Zulu):
 - Mission phase:
 - Terrain:
+- Game:
+- Server hosted on:
+- Winning side:
+- Mission OIC BLUFOR:
+- Mission OIC OPFOR:
+- Mission controller(s):
+- Number of attendees:
 - Friendly task organization:
 - Lead staff reviewer:
 
@@ -15,7 +24,8 @@
 
 List every source used to build this intake.
 
-- Forum AARs:
+- Forum AAR master post:
+- Forum AAR element responses:
 - Staff summary:
 - Zeus or GM notes:
 - Casualty summary:
@@ -41,6 +51,13 @@ List every source used to build this intake.
 - Vehicles or aircraft lost:
 - Materiel captured or destroyed:
 
+## Forum AAR roster handling
+
+- Master roster copied from forum AAR:
+- MilPacs links verified:
+- Missing personnel reported by element leads:
+- Roster corrections still pending:
+
 ## Key events
 
 Record the major moments in rough chronological order.
@@ -55,6 +72,18 @@ Record the major moments in rough chronological order.
 - Enemy actions that changed the mission:
 - Deviations from the original plan:
 - Unexpected friction:
+
+## Element-level observations from AAR responses
+
+### Element pros
+
+- Element callsign:
+- Notes:
+
+### Element cons
+
+- Element callsign:
+- Notes:
 
 ## Intelligence and evidence recovered
 

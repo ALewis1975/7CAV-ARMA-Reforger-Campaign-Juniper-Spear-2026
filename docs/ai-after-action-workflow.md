@@ -41,7 +41,8 @@ The approval chain should be:
 
 Each mission should have one intake packet built from as many of the following as are available:
 
-- forum AARs
+- official forum AAR master post
+- official forum AAR element responses
 - mission-end staff summary
 - Zeus or GM notes
 - casualty summary
@@ -51,12 +52,20 @@ Each mission should have one intake packet built from as many of the following a
 - optional mission timeline
 
 Use [`docs/templates/mission-intake-template.md`](templates/mission-intake-template.md) for the intake packet.
+Use [`docs/templates/forum-aar-template.md`](templates/forum-aar-template.md) for the forum-facing source post and element replies.
 
 ## Canon workflow
 
 ### Step 1: Build the mission intake packet
 
 Moderators or campaign staff consolidate all available post-mission material into a single structured intake.
+
+The official forum AAR should be treated as two source layers:
+
+1. the master post for mission-wide metadata, attendance, command assignments, and outcome
+2. element response posts for roster validation, local observations, and concise pros and cons
+
+Those posts are useful because they capture who was present, how the event was framed publicly, and what subordinate leaders thought mattered immediately after execution.
 
 ### Step 2: Extract the campaign fact sheet
 
@@ -135,6 +144,8 @@ After approval:
 
 Use a short narrative AAR for forums or public recap posts. This should be readable and dramatic, but it should not be the canonical source of campaign truth.
 
+For 7CAV use, that narrative recap should still preserve the official forum header and metadata fields so the public AAR doubles as a structured intake source.
+
 ### Staff-facing output
 
 The authoritative reporting set should stay closer to the original OJS pattern:
@@ -150,6 +161,7 @@ The authoritative reporting set should stay closer to the original OJS pattern:
 - record source references for important claims
 - prefer omission over invention when evidence is thin
 - keep every published draft traceable to the mission intake packet
+- keep forum roster names traceable to MilPacs-linked identities rather than `@mentions`
 
 ## Suggested implementation order
 
