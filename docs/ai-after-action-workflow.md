@@ -14,7 +14,7 @@ The original OJS material shows a clear pattern:
 - post-mission reports were written after key operations
 - those reports appear to have been used to justify the next operational step
 
-The strongest examples are in `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/OJS Original Documents/(01) Reports`, including:
+The strongest examples are in `OJS Original Documents/(01) Reports`, including:
 
 - `OPSUM - OJS - M2`
 - `OPSUM - OJS - M4`
@@ -50,7 +50,7 @@ Each mission should have one intake packet built from as many of the following a
 - optional comms transcript
 - optional mission timeline
 
-Use `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/mission-intake-template.md` for the intake packet.
+Use [`docs/templates/mission-intake-template.md`](templates/mission-intake-template.md) for the intake packet.
 
 ## Canon workflow
 
@@ -73,7 +73,7 @@ AI converts the intake packet into a normalized record covering:
 - unresolved threats
 - continuity hooks for the next mission
 
-Use `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/campaign-fact-sheet-template.md`.
+Use [`docs/templates/campaign-fact-sheet-template.md`](templates/campaign-fact-sheet-template.md).
 
 ### Step 3: Update the campaign ledger
 
@@ -90,7 +90,7 @@ The ledger should track at minimum:
 - unresolved story threads
 - pending opportunities and risks
 
-Use `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/campaign-ledger-template.json`.
+Use [`docs/templates/campaign-ledger-template.json`](templates/campaign-ledger-template.json).
 
 ### Step 4: Generate draft outputs
 
@@ -104,9 +104,9 @@ Once the draft ledger update exists, AI can generate multiple outputs from the s
 
 Use these templates:
 
-- `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/opsum-template.md`
-- `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/intel-annex-template.md`
-- `/home/runner/work/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/7CAV-ARMA-Reforger-Campaign-Juniper-Spear-2026/docs/templates/next-mission-handoff-template.md`
+- [`docs/templates/opsum-template.md`](templates/opsum-template.md)
+- [`docs/templates/intel-annex-template.md`](templates/intel-annex-template.md)
+- [`docs/templates/next-mission-handoff-template.md`](templates/next-mission-handoff-template.md)
 
 ### Step 5: Human approval
 
