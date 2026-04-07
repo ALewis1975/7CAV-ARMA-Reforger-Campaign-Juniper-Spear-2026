@@ -264,7 +264,7 @@ Task Force Iron Vanguard executes the coastal and urban break-in that establishe
 
 #### Operational concept
 
-With the enemy forced out of exposed coastal and urban nodes, the campaign transitions to inland pursuit, network reduction, WMD recovery, and sanctuary isolation. This is the decisive phase for collapsing Umar's ability to preserve the campaign.
+With the enemy forced out of exposed coastal and urban nodes, the campaign transitions to inland pursuit, network reduction, WMD recovery, and sanctuary isolation. This is the decisive phase for collapsing Umar's ability to preserve his network and sanctuary system.
 
 #### Mission line
 
