@@ -92,6 +92,8 @@ The ledger should track at minimum:
 
 Use [`docs/templates/campaign-ledger-template.json`](templates/campaign-ledger-template.json).
 
+Ledger timestamps should use ISO 8601 UTC format with a trailing `Z`, for example `2026-04-07T22:32:42Z`.
+
 ### Step 4: Generate draft outputs
 
 Once the draft ledger update exists, AI can generate multiple outputs from the same approved fact base:
