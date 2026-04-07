@@ -89,7 +89,7 @@ Primary mission line:
 | --- | --- | --- | --- |
 | M2 | Dealbreaker | Raid a coastal facilitator node and recover manifests, radios, and route intelligence | Coastal raid |
 | M4 | Deliverance | Recover isolated personnel from hostile urban fringe terrain and preserve operational momentum | Personnel recovery |
-| M6 | Thunder and Lightening | Seize a military complex and route junction to break the enemy's urban defensive belt | Mechanized deliberate attack |
+| M6 | Thunder and Lightning | Seize a military complex and route junction to break the enemy's urban defensive belt | Mechanized deliberate attack |
 | M8 | Window Shopping | Cordon and clear a market or industrial district, proving Umar escaped inland | Urban cordon and assault |
 
 #### Phase II - Inland pursuit and network reduction
