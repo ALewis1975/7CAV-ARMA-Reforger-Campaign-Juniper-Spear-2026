@@ -30,14 +30,16 @@ The campaign ledger should always preserve these domains:
 
 ### Reference shape
 
+The reference shape below shows a pre-approval M2 baseline.
+
 ```json
 {
   "campaign": {
     "name": "Campaign Juniper Spear 2026",
     "version": 1,
     "phase": "I",
-    "currentMissionId": "M02",
-    "lastApprovedMission": "M02",
+    "currentMissionId": "M2",
+    "lastApprovedMission": null,
     "lastUpdated": "YYYY-MM-DDTHH:MM:SSZ"
   },
   "friendly": {
@@ -63,7 +65,7 @@ The campaign ledger should always preserve these domains:
       {
         "type": "document",
         "summary": "",
-        "sourceMissionId": "M02",
+        "sourceMissionId": "M2",
         "confidence": "high"
       }
     ]

@@ -3,7 +3,7 @@
     "name": "Campaign Juniper Spear 2026",
     "version": 1,
     "phase": "I",
-    "currentMissionId": "M02",
+    "currentMissionId": "M2",
     "lastApprovedMission": null,
     "lastUpdated": "YYYY-MM-DDTHH:MM:SSZ"
   },
@@ -55,7 +55,7 @@
   },
   "missionHistory": [
     {
-      "missionId": "M02",
+      "missionId": "M2",
       "title": "Dealbreaker",
       "status": "planned",
       "result": "pending",
