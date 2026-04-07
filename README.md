@@ -56,6 +56,10 @@ Templates for campaign planning and reporting live under [`docs/templates/`](doc
 - [`docs/templates/next-mission-handoff-template.md`](docs/templates/next-mission-handoff-template.md)
 - [`docs/templates/campaign-ledger-template.json`](docs/templates/campaign-ledger-template.json)
 
+### 7CAV working documents
+
+[`7CAV Docs/`](7CAV%20Docs) is available for 7CAV-specific working documents and supporting reference material that should remain separate from the core adaptation guidance in `docs/`.
+
 ### Original source archive
 
 [`OJS Original Documents/`](OJS%20Original%20Documents) preserves the original Juniper Spear campaign material, including draft planning documents, phase documents, reports, overlays, and reference products that the adaptation is based on.
