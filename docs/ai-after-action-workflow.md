@@ -96,6 +96,8 @@ Each mission should have one intake packet built from as many of the following a
 Use [`docs/templates/mission-intake-template.md`](templates/mission-intake-template.md) for the intake packet.
 Use [`docs/templates/forum-aar-template.md`](templates/forum-aar-template.md) for the forum-facing source post and element replies.
 
+When AI drafts forum-facing material for 7CAV, it should emit BBCode that can be pasted directly into the forum software rather than Markdown prose.
+
 ## Canon workflow
 
 ### Step 1: Build the mission intake packet
@@ -150,11 +152,12 @@ Ledger timestamps should use ISO 8601 UTC format with a trailing `Z`, for exampl
 
 Once the draft ledger update exists, AI can generate multiple outputs from the same approved fact base:
 
-- community-facing AAR summary
+- community-facing AAR summary in BBCode for the 7CAV forums
 - OPSUM for operational outcome
 - INTSUM or INTREP for exploitable intelligence
 - optional SITREP for a shorter command update
 - next-mission handoff for the planner writing the next OPORD or FRAGORD
+- mission briefing slide outline for Google Slides or PDF export
 
 Every mission should also produce a standard machine-readable export set:
 
@@ -168,6 +171,7 @@ Use these templates:
 - [`docs/templates/opsum-template.md`](templates/opsum-template.md)
 - [`docs/templates/intel-annex-template.md`](templates/intel-annex-template.md)
 - [`docs/templates/next-mission-handoff-template.md`](templates/next-mission-handoff-template.md)
+- [`docs/templates/mission-briefing-slides-template.md`](templates/mission-briefing-slides-template.md)
 
 ### Step 5: Human approval
 
@@ -198,6 +202,8 @@ Use a short narrative AAR for forums or public recap posts. This should be reada
 
 For 7CAV use, that narrative recap should still preserve the official forum header and metadata fields so the public AAR doubles as a structured intake source.
 
+That means the final forum-ready version should be delivered in BBCode, not plain Markdown.
+
 ### Staff-facing output
 
 The authoritative reporting set should stay closer to the original OJS pattern:
@@ -205,6 +211,15 @@ The authoritative reporting set should stay closer to the original OJS pattern:
 - OPSUM for mission outcome
 - intel annex for exploitation and follow-on analysis
 - handoff brief for the next mission planner
+- mission briefing deck outline for Google Slides
+
+Staff-facing drafts should be written in a clean structure that can be moved into a PDF or slide deck with minimal reformatting. For Google Slides mission briefings, use the 7CAV reference product in `7CAV Docs/OPORD-Operation Old Folks Home [Roadblock].pdf` as the layout baseline.
+
+## Format rules
+
+- Forum posts: output as BBCode ready for direct posting to the 7CAV forums.
+- PDF-ready staff products: use concise headings, bullets, and tables that survive copy-and-paste cleanly into a document export workflow.
+- Mission briefings: deliver a slide-by-slide outline sized for Google Slides, with explicit image or overlay placeholders where needed.
 
 ## Data handling rules
 
