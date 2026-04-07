@@ -3,7 +3,7 @@
     "name": "Campaign Juniper Spear 2026",
     "version": 1,
     "lastApprovedMission": null,
-    "lastUpdated": "YYYY-MM-DD"
+    "lastUpdated": "YYYY-MM-DDTHH:MM:SSZ"
   },
   "missions": [
     {
@@ -43,7 +43,7 @@
       ],
       "approval": {
         "reviewedBy": "",
-        "approvedOn": "YYYY-MM-DD"
+        "approvedOn": "YYYY-MM-DDTHH:MM:SSZ"
       }
     }
   ],
