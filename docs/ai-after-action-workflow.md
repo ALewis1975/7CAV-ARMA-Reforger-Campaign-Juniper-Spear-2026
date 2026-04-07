@@ -28,6 +28,23 @@ That means the real bridge between missions was not the raw forum AAR by itself.
 
 AI should update campaign state first, then draft human-readable documents from that state.
 
+AI is the staff layer for campaign continuity, not the live tactical decision-maker inside the firefight.
+
+Use AI for:
+
+- pre-mission planning products
+- post-mission campaign-state updates
+- report drafting and continuity handoff
+- multi-mission intelligence synthesis
+- enemy adaptation proposals between approved sessions
+
+Do not use AI for:
+
+- minute-to-minute spawn control
+- direct tactical adjudication during live play
+- automatic canon changes without review
+- replacing deterministic scenario scripting in Reforger
+
 The approval chain should be:
 
 1. collect raw mission material
@@ -36,6 +53,31 @@ The approval chain should be:
 4. generate draft reporting products
 5. approve or reject disputed items
 6. publish approved outputs and carry the ledger forward
+
+## Two-layer campaign architecture
+
+### Layer A - Reforger mission runtime
+
+This layer should remain deterministic and mission-focused. It owns:
+
+- objective logic
+- trigger evaluation
+- insertion and extraction flow
+- AI placements and reinforcement rules
+- vehicle, casualty, detainee, and evidence capture
+- mission-end export
+
+### Layer B - Campaign continuity layer
+
+This layer owns:
+
+- canonical campaign state
+- mission logs and state deltas
+- draft staff products
+- continuity analysis across missions
+- human approval of canon changes
+
+The continuity layer should live outside the live server loop so campaign reasoning stays auditable and stable.
 
 ## Required inputs
 
@@ -100,6 +142,7 @@ The ledger should track at minimum:
 - pending opportunities and risks
 
 Use [`docs/templates/campaign-ledger-template.json`](templates/campaign-ledger-template.json).
+Use [`docs/campaign-state-and-events.md`](campaign-state-and-events.md) to keep the ledger shape and mission-event vocabulary aligned.
 
 Ledger timestamps should use ISO 8601 UTC format with a trailing `Z`, for example `2026-04-07T22:32:42Z`.
 
@@ -112,6 +155,13 @@ Once the draft ledger update exists, AI can generate multiple outputs from the s
 - INTSUM or INTREP for exploitable intelligence
 - optional SITREP for a shorter command update
 - next-mission handoff for the planner writing the next OPORD or FRAGORD
+
+Every mission should also produce a standard machine-readable export set:
+
+- `mission-log.json`
+- `state-delta.json`
+- `AAR.md`
+- `next-mission-FRAGO.md`
 
 Use these templates:
 
@@ -129,6 +179,8 @@ Campaign leadership must approve:
 - how player success or failure affects the next mission
 
 AI may draft recommendations, but it must not make final canon decisions on its own.
+
+GitHub pull requests are the preferred approval bus for this workflow. A mission's exported products should be reviewed together so merge equals canon, rejected changes remain visible, and campaign staff can roll back cleanly if needed.
 
 ### Step 6: Publish and hand off
 
@@ -162,13 +214,29 @@ The authoritative reporting set should stay closer to the original OJS pattern:
 - prefer omission over invention when evidence is thin
 - keep every published draft traceable to the mission intake packet
 - keep forum roster names traceable to MilPacs-linked identities rather than `@mentions`
+- require explicit human review for collateral incidents, named-actor status changes, WMD findings, and any branch that changes the next mission's baseline
+- keep live-mission automation deterministic enough that the same event inputs always produce the same draft delta
+
+## Minimum state domains
+
+The canonical ledger should track, at minimum:
+
+- current phase and mission focus
+- friendly readiness, losses, vehicle status, and sustainment
+- enemy-network integrity, alert level, and known routes
+- confirmed intelligence, assessed leads, and recovered evidence
+- civilian impact, local cooperation, and ROE concerns
+- named actors and their current status
+- mission history and pending review items
 
 ## Suggested implementation order
 
-1. use the templates in this repository manually for one mission
-2. refine the sections that campaign staff actually use
-3. adopt the ledger as the campaign canon source
-4. later, add scripting or automation only after the manual workflow is stable
+1. lock the state schema, event vocabulary, and review gates
+2. use the templates in this repository manually for M2
+3. validate the full loop from mission export to approved next-mission FRAGO
+4. refine the sections that campaign staff actually use
+5. adopt the ledger as the campaign canon source
+6. later, add scripting or automation only after the manual workflow is stable
 
 ## Success criteria
 

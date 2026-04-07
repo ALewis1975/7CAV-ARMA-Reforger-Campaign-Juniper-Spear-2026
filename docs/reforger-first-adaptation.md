@@ -256,15 +256,77 @@ The slice should demonstrate:
 - extraction completion logic
 - debrief that hands off naturally into M4
 
+## Campaign operating system
+
+The Reforger campaign should be treated as a mission chain with a separate campaign brain, not as a single stack of loosely related scenarios.
+
+### AI role boundary
+
+AI should be used as the staff layer that supports continuity between sessions.
+
+Use AI for:
+
+- draft planning products before the mission
+- persistent campaign-state updates after the mission
+- AAR, OPSUM, INTSUM, SITREP, and FRAGO drafting
+- intelligence synthesis across multiple missions
+- controlled enemy adaptation between approved sessions
+
+Do not use AI for:
+
+- minute-to-minute firefight direction
+- undisciplined spawn or reinforcement decisions during live play
+- unsupervised canon changes
+- replacing deterministic mission scripting inside Reforger
+
+### Two-layer architecture
+
+#### Layer A - Reforger mission runtime
+
+This layer owns:
+
+- objectives and triggers
+- AI placements and reinforcement rules
+- insertion and extraction logic
+- casualty, detainee, and vehicle-state capture
+- evidence pickup and site-exploitation triggers
+- mission-end export of the player-facing debrief
+
+#### Layer B - Campaign continuity layer
+
+This layer owns:
+
+- canonical campaign state
+- mission logs and proposed state deltas
+- draft staff products
+- human approval before canon changes
+- continuity handoff into the next mission
+
+GitHub should be treated as the approval bus for the continuity layer. A proposed state update is draft until campaign leadership reviews the exported products and accepts the change.
+
+### Minimum mission artifact set
+
+Every finished mission should produce:
+
+- `mission-log.json`
+- `state-delta.json`
+- `AAR.md`
+- `next-mission-FRAGO.md`
+
+Those products should be reviewed together so canon decisions remain traceable and reversible.
+
 ## Implementation priorities
 
 1. Lock the fictional theater and terrain package.
-2. Build the M2 vertical slice on the primary coastal terrain.
-3. Carry the same faction package, briefing format, and mission scale into M4, M6, and M8.
-4. Expand into the inland pursuit once the Phase I structure plays well in Reforger.
+2. Lock the campaign state schema, event vocabulary, and approval rules before scaling mission production.
+3. Build the M2 vertical slice as a complete loop from briefing through approved state update.
+4. Carry the same faction package, briefing format, mission artifact set, and playable scope into M4, M6, and M8.
+5. Expand into the inland pursuit only after the Phase I continuity loop is stable.
 
 ## Decision summary
 
 The repository should move forward with a terrain-first, modern RHS, Reforger-native version of Juniper Spear.
 
 The adaptation should preserve the campaign's structure and stakes while dropping the requirement to represent Mogadishu literally.
+
+The first deliverable is not just a mission. It is the validated campaign loop that turns M2 into approved continuity for M4.

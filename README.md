@@ -34,6 +34,7 @@ The intended campaign flow is:
 - [Campaign WARNO draft](docs/campaign-warno-draft.md) - campaign-level operational framing and phase structure
 - [Campaign ORBAT draft](docs/campaign-orbat-draft.md) - friendly, partner, and hostile force structure
 - [AI after-action workflow](docs/ai-after-action-workflow.md) - recommended campaign reporting and canon-update workflow
+- [Campaign state and event reference](docs/campaign-state-and-events.md) - minimum ledger schema, event vocabulary, and M2 continuity-loop standard
 
 ## Repository layout
 
@@ -45,6 +46,7 @@ The active design material lives under [`docs/`](docs/):
 - [`docs/campaign-warno-draft.md`](docs/campaign-warno-draft.md)
 - [`docs/campaign-orbat-draft.md`](docs/campaign-orbat-draft.md)
 - [`docs/ai-after-action-workflow.md`](docs/ai-after-action-workflow.md)
+- [`docs/campaign-state-and-events.md`](docs/campaign-state-and-events.md)
 
 Templates for campaign planning and reporting live under [`docs/templates/`](docs/templates/):
 
@@ -86,6 +88,7 @@ Current repository status:
 - campaign setting reframed into the fictional **Hadir Littoral** and **Daryan Interior**
 - mission line mapped from the original source into a Reforger-first campaign structure
 - reporting and continuity templates prepared for campaign operations
+- campaign state schema and event vocabulary locked for the first continuity loop
 - original OJS material preserved for reference
 
 ## License
