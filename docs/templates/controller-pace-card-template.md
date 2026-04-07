@@ -33,7 +33,7 @@ Use this as the short controller reference for live execution.
 
 - new enemy strength beyond approved escalation limits
 - new mission objectives without command approval
-- named-actor outcomes that are not supported by evidence
+- named actor outcomes that are not supported by evidence
 - canon-changing consequences that have not been flagged for review
 
 ## Record before endex

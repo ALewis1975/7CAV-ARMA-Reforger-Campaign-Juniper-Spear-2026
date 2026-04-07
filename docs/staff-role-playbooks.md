@@ -96,7 +96,7 @@ Protect canon, traceability, and consistency across missions.
 
 ### Pre-mission checklist
 
-- review the last approved ledger state
+- review the most recently approved ledger state
 - identify continuity constraints that the next mission must honor
 - flag pending review items that could affect the mission baseline
 
