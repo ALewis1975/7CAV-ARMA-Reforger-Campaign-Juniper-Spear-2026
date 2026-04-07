@@ -18,7 +18,8 @@ The campaign is now being reframed as a Reforger-first operation that preserves 
 
 - [Reforger-first adaptation guide](docs/reforger-first-adaptation.md)
 - [AI after-action workflow](docs/ai-after-action-workflow.md)
-- [Reporting templates](docs/templates/mission-intake-template.md)
+- [Mission intake template](docs/templates/mission-intake-template.md)
+- [Forum AAR template](docs/templates/forum-aar-template.md)
 
 ## Source material
 
