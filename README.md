@@ -54,11 +54,14 @@ Templates for campaign planning and reporting live under [`docs/templates/`](doc
 - [`docs/templates/opsum-template.md`](docs/templates/opsum-template.md)
 - [`docs/templates/intel-annex-template.md`](docs/templates/intel-annex-template.md)
 - [`docs/templates/next-mission-handoff-template.md`](docs/templates/next-mission-handoff-template.md)
+- [`docs/templates/mission-briefing-slides-template.md`](docs/templates/mission-briefing-slides-template.md)
 - [`docs/templates/campaign-ledger-template.json`](docs/templates/campaign-ledger-template.json)
 
 ### 7CAV working documents
 
 [`7CAV Docs/`](7CAV%20Docs) is available for 7CAV-specific working documents and supporting reference material that should remain separate from the core adaptation guidance in `docs/`.
+
+That directory also holds a sample 7CAV OPORD PDF that can be used as a reference when building Google Slides mission briefings and PDF briefing exports.
 
 ### Original source archive
 
@@ -75,7 +78,7 @@ Templates for campaign planning and reporting live under [`docs/templates/`](doc
 ### If you are building or running the campaign
 
 - use the adaptation guide, WARNO, and ORBAT as the current design baseline
-- use the templates in `docs/templates/` to standardize planning, AARs, and handoff products
+- use the templates in `docs/templates/` to standardize planning, BBCode forum outputs, PDF-ready staff products, and Google Slides briefing products
 - use the AI workflow document only as a drafting and staff-support process, not as an automatic canon authority
 - preserve traceability back to source documents when locking campaign decisions
 
