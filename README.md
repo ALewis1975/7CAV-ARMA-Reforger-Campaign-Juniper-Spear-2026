@@ -36,6 +36,7 @@ The intended campaign flow is:
 - [Campaign ORBAT draft](docs/campaign-orbat-draft.md) - friendly, partner, and hostile force structure
 - [AI after-action workflow](docs/ai-after-action-workflow.md) - recommended campaign reporting and canon-update workflow
 - [Campaign state and event reference](docs/campaign-state-and-events.md) - minimum ledger schema, event vocabulary, and M2 continuity-loop standard
+- [Staff role playbooks](docs/staff-role-playbooks.md) - lightweight billet definitions and handoff checklists for campaign execution
 
 ## Repository layout
 
@@ -49,10 +50,13 @@ The active design material lives under [`docs/`](docs/):
 - [`docs/campaign-orbat-draft.md`](docs/campaign-orbat-draft.md)
 - [`docs/ai-after-action-workflow.md`](docs/ai-after-action-workflow.md)
 - [`docs/campaign-state-and-events.md`](docs/campaign-state-and-events.md)
+- [`docs/staff-role-playbooks.md`](docs/staff-role-playbooks.md)
 
 Templates for campaign planning and reporting live under [`docs/templates/`](docs/templates/):
 
 - [`docs/templates/mission-intake-template.md`](docs/templates/mission-intake-template.md)
+- [`docs/templates/controller-packet-template.md`](docs/templates/controller-packet-template.md)
+- [`docs/templates/controller-pace-card-template.md`](docs/templates/controller-pace-card-template.md)
 - [`docs/templates/forum-aar-template.md`](docs/templates/forum-aar-template.md)
 - [`docs/templates/campaign-fact-sheet-template.md`](docs/templates/campaign-fact-sheet-template.md)
 - [`docs/templates/opsum-template.md`](docs/templates/opsum-template.md)
@@ -82,7 +86,8 @@ That directory also holds a sample 7CAV OPORD PDF that can be used as a referenc
 ### If you are building or running the campaign
 
 - use the adaptation guide, WARNO, and ORBAT as the current design baseline
-- use the templates in `docs/templates/` to standardize planning, BBCode forum outputs, PDF-ready staff products, and Google Slides briefing products
+- use the campaign process plan and staff role playbooks to assign billets, keep tempo discipline, and preserve continuity between events
+- use the templates in `docs/templates/` to standardize planning, controller packets, BBCode forum outputs, PDF-ready staff products, and Google Slides briefing products
 - use the AI workflow document only as a drafting and staff-support process, not as an automatic canon authority
 - preserve traceability back to source documents when locking campaign decisions
 

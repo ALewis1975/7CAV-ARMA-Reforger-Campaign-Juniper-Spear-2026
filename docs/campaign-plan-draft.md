@@ -1,352 +1,236 @@
-# Campaign Plan Draft
+# Campaign process plan draft
 
 ## Purpose
 
-This document reworks the original Operation Juniper Spear campaign plan into a Reforger-first campaign plan for the fictional **Hadir Littoral** and **Daryan Interior** theater.
+This document turns the repository's existing continuity workflow into a 7CAV campaign operating model.
 
-It uses the original campaign plan as a structural reference while aligning the setting, force relationships, threat model, and mission flow with the current campaign lore, WARNO, and ORBAT drafts.
+It is an organizational and staff-process plan, not a live-mission automation design.
 
-## Header
+## Operating model
 
-- Operation: Juniper Spear 2026
-- Order type: Campaign plan
-- Echelon: Joint and battalion campaign framework with platoon and company playable scope
-- Draft status: Planning baseline
+The campaign should run on two layers:
 
-## References
+1. **Reforger mission runtime** for deterministic scenario execution, player interaction, and mission-end export.
+2. **GitHub continuity layer** for campaign state, review, staffing products, and approved canon updates.
 
-- Original source: `OJS Original Documents/OJS - Campaign Plan.pdf`
-- Adaptation guide: `docs/reforger-first-adaptation.md`
-- Campaign warning order: `docs/campaign-warno-draft.md`
-- Campaign ORBAT: `docs/campaign-orbat-draft.md`
-- Continuity reference: `docs/campaign-state-and-events.md`
+Under this model:
 
-## Command relationships
+- AI supports staff work before and after missions.
+- AI does not drive minute-to-minute tactical control during live play.
+- GitHub pull requests are the approval gate for canon updates.
+- The approved campaign ledger remains the source of truth for follow-on orders.
 
-Operation Juniper Spear is a joint expeditionary campaign led by **US Africa Command / CJTF-HOA** at the strategic level and executed in theater by **Joint Task Force Juniper**.
+## Core workflow
 
-The tactical main effort is **Task Force Iron Vanguard**, centered on a reinforced **1-7 CAV** battalion task force and supported by aviation, reconnaissance, sustainment, and special operations enablers. Host-nation security forces, regional stabilization forces, and border-containment partners support follow-on security, transition of authority, and pressure outside the playable battlespace.
+### 1. Pre-mission planning
 
-## 1. Situation
+Before each mission:
 
-### Operational context
+- build or update the mission briefing from approved campaign state
+- prepare a controller packet from the approved OPORD or FRAGO
+- issue a short controller pace card
+- assign campaign staff roles for the event
 
-Ahmad Umar leads an extremist network that combines pirate facilitators, black-market brokers, urban insurgents, defected military personnel, and rural sanctuary forces across the Hadir Littoral and Daryan Interior.
+Use these templates:
 
-Recent reporting indicates Umar's network has received or is attempting to move **chemical or radiological material** through coastal smuggling channels. The coast provides access and concealment, the city provides intimidation and compartmented movement, and the interior provides dispersal space, training camps, and sanctuary corridors.
+- [`docs/templates/controller-packet-template.md`](templates/controller-packet-template.md)
+- [`docs/templates/controller-pace-card-template.md`](templates/controller-pace-card-template.md)
+- [`docs/templates/mission-briefing-slides-template.md`](templates/mission-briefing-slides-template.md)
 
-The enemy's likely operational design is to delay intervention in the littoral, absorb friendly attention in dense urban terrain, then move key personnel, documentation, and WMD-related materiel inland before the campaign can consolidate.
+### 2. Live mission execution
 
-### Strategic guidance
+During the mission:
 
-- Deny Umar time to relocate or disperse WMD-related materiel.
-- Prevent the enemy from consolidating control of the littoral and city.
-- Preserve enough friendly tempo to force the network from coast to city to interior without allowing a clean sanctuary transition.
-- Restore host-nation freedom of action and enable partner transition after decisive combat.
+- keep mission logic deterministic and mission-focused
+- use controllers to preserve intent, pacing, and consequences
+- avoid turning the mission into a run-and-gun acceleration loop
+- record major events, controller interventions, and deviations for later review
 
-### Strategic direction
+### 3. Post-mission intake
 
-The campaign will establish an expeditionary headquarters, secure the littoral lodgment, break the urban support network, pursue the enemy inland, recover WMD-related material, and finish with a deliberate encirclement of Umar's final sanctuary.
+After each event:
 
-### Strategic objectives and tasks assigned to the command
+- compile one mission intake packet
+- attach forum AAR material, GM notes, casualty and logistics summaries, screenshots, and optional transcripts
+- identify what is observed fact, what is assessed, and what is disputed
 
-- Establish theater command and expeditionary sustainment nodes for Task Force Iron Vanguard.
-- Secure coastal access points, air or rotary sustainment corridors, and key maneuver routes.
-- Fragment the coastal facilitation ring and Hadir urban fighting groups.
-- Identify, seize, and secure WMD-related stockpiles, precursor material, or technical documentation.
-- Capture or kill Ahmad Umar and destroy his inner security detachment.
-- Enable host-nation and regional partner forces to assume post-objective security responsibilities.
-- Preserve civilian legitimacy by minimizing unnecessary damage in populated areas.
+Use [`docs/templates/mission-intake-template.md`](templates/mission-intake-template.md).
 
-### Constraints
+### 4. AI-assisted synthesis
 
-- Tempo matters more than total terrain clearance; delay favors Umar.
-- Civilian density and restrictive ROE remain major planning factors in port, market, and residential districts.
-- WMD-linked objectives must be treated as secure-site problems, not area-destruction targets.
-- Playable battlespace must feel battalion-connected without requiring brigade-scale player density.
+Once the intake packet is ready:
 
-## 2. Belligerent data
+- draft a normalized campaign fact sheet
+- draft mission-log and state-delta outputs
+- draft staff-facing reporting products
+- draft the public forum AAR in BBCode
 
-### Overview
+AI should always update the ledger draft before it writes narrative follow-on products.
 
-Umar's network should be understood as a coalition rather than a single homogeneous force. It blends extremist command elements, port criminals, technical-mounted urban fighters, captured heavy-weapons crews, rural insurgent detachments, and a hardened inner-security detachment.
+Use:
 
-### Composition
+- [`docs/templates/campaign-fact-sheet-template.md`](templates/campaign-fact-sheet-template.md)
+- [`docs/templates/campaign-ledger-template.json`](templates/campaign-ledger-template.json)
+- [`docs/templates/opsum-template.md`](templates/opsum-template.md)
+- [`docs/templates/intel-annex-template.md`](templates/intel-annex-template.md)
+- [`docs/templates/next-mission-handoff-template.md`](templates/next-mission-handoff-template.md)
+- [`docs/templates/forum-aar-template.md`](templates/forum-aar-template.md)
 
-- **Coastal facilitation ring:** pirate-smuggler operators, dock guards, bribed port officials, warehouse crews, and technical escorts
-- **Hadir urban fighting groups:** district militants, snipers, RPG teams, IED cells, and rapid-reaction technicals
-- **Captured heavy-weapons group:** defected or coerced crews operating seized armored vehicles, recoilless rifles, and mortars
-- **Daryan interior detachments:** convoy escorts, camp guards, cache security teams, and route-denial cells
-- **External facilitator cells:** brokers moving money, documents, components, and cross-border contacts
-- **Inner security detachment:** Umar's best-trained guard force responsible for final sanctuary defense and WMD-site protection
+### 5. Review and canon approval
 
-### Location and disposition
+Campaign staff should review:
 
-- The **Hadir Littoral** contains the port, airfield approaches, industrial zones, and urban districts that support initial enemy concealment.
-- The **dense city belt** shields leadership movement and allows rapid reinforcement by technical-mounted cells.
-- The **Daryan Interior** contains retreat corridors, dispersed camps, convoy routes, and hardened sites suitable for WMD concealment and final sanctuary operations.
+- proposed ledger updates
+- disputed or weakly supported facts
+- named-actor status changes
+- civilian-impact updates
+- WMD-related findings
+- any change that alters the next mission baseline
 
-### Belligerent objectives
+Merge approval in GitHub is the canon decision point.
 
-- Preserve Umar's freedom of movement.
-- Trade space for time from coast to city to interior.
-- Use civilians, urban density, and restrictive ROE to slow the task force.
-- Keep WMD-related materiel mobile, hidden, or compartmented until a sanctuary can be secured.
-- Protect the final command network long enough for dispersal, breakout, or external handoff.
+### 6. Publish and hand off
 
-### Operational capabilities
+After approval:
 
-The enemy can mass irregular fighters quickly in dense or compartmented terrain, conduct convoy-style movement inland, and generate localized shock through captured heavy weapons. Its major weaknesses remain limited formal command and control, inconsistent training outside the inner guard, and reliance on facilitators, routes, and safe sites that can be identified and collapsed in sequence.
+- save the approved ledger state
+- publish approved staff and community outputs
+- hand the next-mission package to the planner
+- carry forward unresolved risks, staffing gaps, and continuity threads
 
-## 3. Friendly and partner forces
+## Controller support model
 
-### Friendly force overview
+The campaign should control pace before the mission, not improvise it during the mission.
 
-Friendly campaign structure follows the current ORBAT draft:
+Each mission should produce a controller packet that includes:
 
-- **Joint Task Force Juniper HQ:** theater command, intelligence fusion, and campaign prioritization
-- **Task Force Iron Vanguard HQ:** ground tactical headquarters for the main effort
-- **1-7 CAV (reinforced):** principal maneuver force and default playable centerpiece
-- **Air assault company attachment:** vertical envelopment, blocking actions, raid support, and QRF
-- **Ranger platoon attachment:** HVT targeting, reconnaissance, and sensitive site exploitation
-- **2-12 ARS-equivalent screen:** route reconnaissance, flank security, and pursuit support
-- **2-227 AVN-equivalent detachment:** lift, resupply, CASEVAC, and limited air assault support
-- **7-17 CAV-equivalent detachment:** attack reconnaissance and armed escort
-- **115 BSB-equivalent support node:** sustainment, maintenance, casualty support, and recovery
-- **USAF / theater ISR detachment and JSOC liaison cell:** target development, communications extension, and cross-mission continuity
+- commander's intent
+- desired tempo and friction model
+- escalation rules
+- failure conditions and fail-forward guidance
+- branch triggers and sequel boundaries
+- explicit "do not accelerate" rules
+- likely player friction points and how to let them play out
 
-### Partner and supporting forces
+Each mission should also issue a short pace card for controllers that answers:
 
-- **Host-nation security forces:** hold cleared terrain, secure detainees and sites, and assume follow-on security
-- **Port and airfield security battalion:** static security presence that may be partially compromised early in the campaign
-- **Urban police and gendarmerie districts:** crowd control, local intelligence, and post-clearance control measures
-- **Border guard regiment:** supports route denial and sanctuary containment in the interior
-- **Coast guard / harbor patrol flotilla:** contributes to littoral monitoring and maritime interdiction
-- **Regional stabilization mission:** reinforces fixed-site security and relief-corridor legitimacy where required
+- when to slow the mission down
+- when to allow friction to breathe
+- when to inject pressure
+- when not to improvise new escalation
 
-### Civil considerations
+Post-mission review should compare actual controller actions against the controller packet and log drift as a review item.
 
-Civilian presence remains most significant in market districts, residential blocks, industrial labor zones, and port-adjacent neighborhoods. Civilian behavior may range from cooperative to intimidated to opportunistic. Aid groups, local media, and religious figures should be treated as consequence amplifiers even when they are not physically present in a mission.
+## Staff billets and training model
 
-## 4. Assumptions
+To reduce the burden on scarce officers and controllers, split campaign work into smaller billets:
 
-- Umar intends to preserve the WMD threat as leverage rather than expend it immediately.
-- The enemy will abandon exposed coastal nodes once they are compromised.
-- Intelligence recovered from each mission will narrow the next objective instead of revealing the full end state at once.
-- Host-nation forces can hold selected terrain and facilities after U.S.-led seizure if the transfer is deliberate and properly resourced.
-- The campaign can sustain battalion-level pressure narratively while keeping individual playable missions at platoon or company scale.
+- mission commander
+- controller or GM
+- AAR curator
+- continuity officer
+- intel and order drafter
 
-## 5. Mission
+Each billet should have:
 
-Joint Task Force Juniper conducts sequential combined-arms operations across the Hadir Littoral and Daryan Interior to seize the coastal lodgment, shatter Ahmad Umar's support network, recover WMD-related material or technical evidence, and capture or kill Ahmad Umar before he can preserve a final sanctuary.
+- a short purpose statement
+- a pre-mission checklist
+- an execution checklist where applicable
+- a post-mission checklist
+- defined handoff outputs
 
-## 6. Operations
+See [`docs/staff-role-playbooks.md`](staff-role-playbooks.md).
 
-### Strategic concept
+## Continuity and persistence model
 
-The campaign opens by securing the littoral foothold and stabilizing the force posture needed to operate against Umar's network. It then uses reconnaissance and targeted action to identify enemy movement patterns, followed by a decisive urban break-in and inland pursuit. The campaign culminates in WMD-site seizure and the reduction of Umar's final sanctuary, then transitions security responsibilities to partner forces.
+To survive volunteer turnover and long time gaps:
 
-### Area organization
+- keep campaign history, named actors, unresolved threads, logistics state, and pending review items in GitHub
+- review changes by pull request so state transitions stay visible
+- use Issues or a Project board for open storylines, staffing gaps, continuity risks, and pending staff decisions
+- require each mission to publish the same standard output set
 
-- **Primary battlespace:** Hadir Littoral - port approaches, airfield, industrial edge, peri-urban corridors, and dense city districts
-- **Secondary battlespace:** Daryan Interior - desert lanes, sparse settlements, crossing sites, camp networks, and pursuit corridors
-- **Final objective area:** border sanctuary district or hardened interior complex depending on terrain packaging
+The minimum output set per mission should be:
 
-### Desired end state
+- intake packet
+- fact sheet
+- mission-log export
+- state-delta export
+- forum AAR draft
+- OPSUM
+- intel annex when needed
+- next-mission handoff
+- mission briefing slide outline for the follow-on event
 
-- Umar is captured or killed.
-- WMD-related material, precursors, or technical records are secured.
-- The coastal facilitation ring, urban fighting groups, and interior detachments are fragmented beyond effective reconstitution.
-- Key routes, compounds, and strongpoints are transferred to partner control.
-- The host nation regains usable freedom of action in the operational area.
+## Console-player considerations
 
-### Planned phases of the operation
+Campaign process should assume mixed PC and console participation.
 
-1. Deployment
-2. Reconnaissance
-3. Initial Conduct
-4. Exploitation
-5. Stability
+That means:
 
----
+- avoid dependence on player-side mod workflows
+- keep player tasks, role expectations, and briefing outputs concise
+- favor staff-side GitHub tooling over in-game data entry requirements
+- design AAR collection so console players still feed the same intake packet through staff-curated summaries and forum posts
+- keep command-and-control products readable in short-form briefing formats
 
-### Phase I - Deployment
+## GitHub-native operating model
 
-#### Operational concept
+Recommended platform use:
 
-Joint Task Force Juniper deploys theater headquarters, opens expeditionary sustainment, establishes aviation and command nodes, and positions Task Force Iron Vanguard to secure the littoral lodgment and prepare follow-on operations.
+- **Discussions** for planning debates, adaptation concepts, and staffing conversations
+- **Issues** for mission tasks, staffing shortages, open continuity questions, controller lessons learned, and unresolved risks
+- **Pull requests** for ledger updates, mission output review, and canon approval
+- **Templates** for intake, reporting, handoff, briefing, and controller-support products
+- **Actions later** for validation, reminders, or file generation only after the manual workflow is stable
 
-#### Forces required by function or capability
+## Minimum viable AI use
 
-- Expeditionary headquarters and tactical command nodes
-- Maneuver force able to secure lodgment terrain and defend critical facilities
-- Aviation support for lift, CASEVAC, and repositioning
-- Sustainment package for distributed coastal and inland staging
-- Partner-force liaison and transition planning
+### Pre-mission
 
-#### Tasks by major element
+- draft controller packet
+- draft controller pace card
+- draft briefing slides
+- draft concise intel summary
 
-| Element | Phase I tasks |
-| --- | --- |
-| Joint Task Force Juniper HQ | Establish theater command relationships, synchronize intelligence and partner liaison, define campaign authorities |
-| Task Force Iron Vanguard HQ | Establish main tactical command post, stage battalion fight, assign lodgment and follow-on sectors |
-| 1-7 CAV (reinforced) | Secure the primary lodgment, defend key air or coastal entry terrain, prepare for M2-M4 mission set |
-| 2-12 ARS-equivalent screen | Confirm approach routes, identify threat avenues, screen likely reinforcement corridors |
-| 2-227 AVN-equivalent detachment | Establish lift and CASEVAC plan, support distributed staging, sustain initial maneuver posture |
-| 7-17 CAV-equivalent detachment | Conduct armed reconnaissance and overwatch for lodgment security |
-| 115 BSB-equivalent support node | Establish expeditionary logistics, casualty collection, maintenance, and recovery support |
-| Host-nation security forces | Secure rear areas, hold transferred points, provide local liaison and access |
-| Coast guard / harbor patrol flotilla | Support maritime observation and initial harbor control where available |
+### Post-mission
 
----
+- normalize AAR inputs
+- extract structured facts
+- draft ledger updates
+- draft BBCode forum AAR
+- draft OPSUM, intel annex, and next-mission handoff
 
-### Phase II - Reconnaissance
+### Between missions
 
-#### Operational concept
+- summarize trends across AARs
+- identify recurring controller issues
+- surface continuity risks
+- propose enemy adaptation options for staff approval
 
-Friendly forces map the network that connects coast, city, and interior. Reconnaissance effort focuses on facilitators, escape routes, convoy lanes, camp locations, and WMD-related movement indicators that will determine the opening mission sequence.
+## Governance rules
 
-#### Forces required by function or capability
+- AI drafts; humans approve.
+- Do not let AI adjudicate live tactical outcomes as canon on its own.
+- Separate observed facts from assessed conclusions.
+- Mark weak evidence as disputed, unverified, or assessed.
+- Require explicit human review for named-actor status changes, civilian-impact changes, WMD-related findings, and next-mission baseline changes.
+- Prefer omission over invention.
 
-- Reconnaissance and surveillance coverage in littoral and inland approaches
-- HUMINT and sensitive-site exploitation support
-- Limited strike or raid capability against fleeting opportunities
-- Reliable continuity reporting that narrows the next mission
+## Rollout sequence
 
-#### Tasks by major element
+1. Run one full mission through the existing manual loop.
+2. Prove intake to ledger draft to approved PR to next-mission handoff.
+3. Refine only the sections staff actually use.
+4. Formalize billets, checklists, and controller products.
+5. Add selective GitHub automation only after the manual process is stable.
 
-| Element | Phase II tasks |
-| --- | --- |
-| Joint Task Force Juniper HQ | Fuse ISR, HUMINT, partner reporting, and mission exploitation into a campaign target picture |
-| Task Force Iron Vanguard HQ | Prioritize route, district, and site reconnaissance; prepare branch plans |
-| 1-7 CAV (reinforced) | Identify coastal facilitators, urban entry points, and likely HVT-support districts |
-| Ranger platoon attachment | Track HVT facilitators, conduct special reconnaissance, support evidence capture |
-| 2-12 ARS-equivalent screen | Confirm inland retreat corridors, crossings, depots, and convoy patterns |
-| 7-17 CAV-equivalent detachment | Extend deep reconnaissance, escort air movement, and cue time-sensitive strikes |
-| JSOC liaison cell / theater ISR | Support target development, detainee exploitation, and inter-mission continuity |
-| Host-nation intelligence bureau | Provide local watchlists, detainee deconfliction, and source validation |
-| Border guard regiment | Report movement toward frontier routes and likely sanctuary lanes |
+## Success criteria
 
----
+The process is working when it:
 
-### Phase III - Initial Conduct
-
-#### Operational concept
-
-Task Force Iron Vanguard executes the coastal and urban break-in that establishes operational momentum and strips Umar of his littoral shield. This phase covers the first campaign mission block and should end with proof that the network has displaced inland.
-
-#### Mission line
-
-| Mission | Working title | Campaign role | Primary form |
-| --- | --- | --- | --- |
-| M2 | Dealbreaker | Raid a coastal facilitator node and recover manifests, radios, and route intelligence | Coastal raid |
-| M4 | Deliverance | Recover isolated personnel and preserve momentum on the urban fringe | Personnel recovery |
-| M6 | Thunder and Lightning | Seize a military complex and route junction to break the urban defensive belt | Mechanized deliberate attack |
-| M8 | Window Shopping | Cordon and clear a market or industrial district and confirm inland escape | Urban cordon and assault |
-
-#### Tasks by major element
-
-| Element | Phase III tasks |
-| --- | --- |
-| Task Force Iron Vanguard HQ | Sequence M2-M8 for cumulative intelligence gain and tempo preservation |
-| 1-7 CAV (reinforced) | Conduct the main raid, rescue, breakthrough, and urban assault actions |
-| Air assault company attachment | Provide blocking positions, rooftop or compound seizure, and rapid repositioning |
-| Ranger platoon attachment | Support HVT capture windows and sensitive-site exploitation |
-| 2-12 ARS-equivalent screen | Seal reinforcement lanes and monitor retreat routes out of the city |
-| 2-227 AVN-equivalent detachment | Lift QRF elements, support CASEVAC, and extend operational reach |
-| 7-17 CAV-equivalent detachment | Escort aviation and suppress technical-mounted counterattacks |
-| Host-nation security forces | Hold cordons, secure detainees, assume control of cleared facilities |
-| Urban police / gendarmerie | Restore checkpoint and crowd-control posture after key objectives are seized |
-
----
-
-### Phase IV - Exploitation
-
-#### Operational concept
-
-With the enemy forced out of exposed coastal and urban nodes, the campaign transitions to inland pursuit, network reduction, WMD recovery, and sanctuary isolation. This is the decisive phase for collapsing Umar's ability to preserve his network and sanctuary system.
-
-#### Mission line
-
-| Mission | Working title | Campaign role | Primary form |
-| --- | --- | --- | --- |
-| M10 | Pursuit opener | Locate retreat corridors, caches, and first interior logistics hubs | Wide-area sweep |
-| M12 | Camp strike | Raid or air assault a rural complex tied to WMD transit | Air assault or raid |
-| M14 | Interdiction strike | Hit a convoy, depot, or crossing point moving Umar support personnel | Interdiction attack |
-| M16 | WMD recovery | Secure a hardened site containing stockpiles, precursors, or technical records | Deliberate objective seizure |
-| M18 | Final encirclement | Encircle and assault Umar's sanctuary or border stronghold | Multi-axis final assault |
-
-#### Tasks by major element
-
-| Element | Phase IV tasks |
-| --- | --- |
-| Joint Task Force Juniper HQ | Retask campaign priority toward sanctuary reduction and WMD-site exploitation |
-| Task Force Iron Vanguard HQ | Maintain pressure across multiple lanes without losing the main effort |
-| 1-7 CAV (reinforced) | Execute the decisive sweep, raid, seizure, and final assault actions |
-| Air assault company attachment | Conduct vertical envelopment, pursuit blocks, and retreat denial |
-| Ranger platoon attachment | Support sensitive-site exploitation and sanctuary breach shaping |
-| 2-12 ARS-equivalent screen | Fix or track retreating packets and identify breakout attempts |
-| 115 BSB-equivalent support node | Sustain distributed operations across long lines and support contamination-control requirements |
-| 2-227 AVN-equivalent detachment | CASEVAC, resupply, raid support, and rapid repositioning |
-| 7-17 CAV-equivalent detachment | Armed reconnaissance, convoy disruption, and overwatch during final isolation |
-| Border guard regiment and regional forces | Support frontier containment and deny external reinforcement or escape |
-
----
-
-### Phase V - Stability
-
-#### Operational concept
-
-After the destruction of Umar's sanctuary network, campaign activity shifts to securing recovered sites, processing detainees and evidence, transferring terrain to partner control, and preserving freedom of action against residual cells.
-
-#### Forces required by function or capability
-
-- Site security and exploitation
-- Detainee handling and consequence management
-- Route security and fixed-site handoff
-- Civil affairs, information, and legitimacy support
-
-#### Tasks by major element
-
-| Element | Phase V tasks |
-| --- | --- |
-| Joint Task Force Juniper HQ | Direct transition priorities, theater messaging, and follow-on security framework |
-| Task Force Iron Vanguard HQ | Consolidate gains, support handoff, and maintain reserve combat power against spoilers |
-| 1-7 CAV (reinforced) | Secure decisive sites until host-nation forces can assume control |
-| 115 BSB-equivalent support node | Support site exploitation, sustainment, recovery, and medical operations |
-| Host-nation security forces | Assume control of cleared compounds, districts, depots, and detainee sites |
-| Urban police / gendarmerie | Re-establish civil control and checkpoint presence |
-| Local intelligence bureau | Exploit captured media and detainees into residual-network targeting |
-| Regional stabilization mission | Secure relief corridors and reinforce legitimacy in sensitive zones |
-
-### Information and civil effects guidance
-
-- Undermine enemy freedom of movement and confidence in sanctuary.
-- Increase civilian willingness to avoid, report, or abandon enemy-controlled nodes.
-- Counter enemy intimidation, propaganda, and coercion.
-- Preserve the legitimacy of friendly and partner operations by minimizing unnecessary destruction and maintaining disciplined site control.
-
-### Coordinating instructions
-
-- Every mission must reinforce the coast-city-interior-sanctuary campaign spine.
-- Mission outcomes should alter conditions, not replace the sequence.
-- Use fail-forward logic instead of hard resets wherever possible.
-- Recovered documents, detainees, media, and site evidence should feed the campaign continuity workflow.
-- The next mission handoff must state what was confirmed, what remains unresolved, and which route, site, or person becomes the next focal point.
-
-## 7. Sustainment
-
-- Sustainment should remain mobile, expeditionary, and visibly constrained.
-- CASEVAC planning is mandatory in littoral and interior operations.
-- WMD-linked objectives require contamination-control, isolation, and controlled exploitation procedures.
-- Distribution, vehicle recovery, and casualty support must keep pace with dispersed maneuver rather than rely on static rear-area abundance.
-
-## 8. Command and signal
-
-- Campaign command remains battalion-led in the playable space with higher headquarters shaping the wider theater.
-- Command posts, logistics hubs, aviation support zones, and holding areas should shift as operations move inland.
-- Debriefs, OPSUMs, AARs, and handoff products should use repository templates so campaign canon stays traceable across sessions.
-
-## Planning end state for this draft
-
-This campaign plan is intended to serve as the campaign-level planning baseline that sits above individual OPORDs and below the broader adaptation guidance. It should be used as the narrative and operational template for future mission briefs, continuity updates, and campaign-state decisions.
+- preserves mission tempo and intent without ad hoc controller escalation
+- reduces manual rewrite work for AARs and follow-on orders
+- keeps canon traceable to reviewed source packets
+- allows staff turnover without losing campaign continuity
+- supports mixed PC and console participation without changing the core workflow
