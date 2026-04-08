@@ -87,9 +87,13 @@ Primary mission line:
 
 | Mission | Working title | Role in campaign | Recommended mission type |
 | --- | --- | --- | --- |
+| M1 | Tripwire | Ranger recon and HUMINT collection along the littoral to map the smuggling network before the main raid | Special reconnaissance / HUMINT patrol |
 | M2 | Dealbreaker | Raid a coastal facilitator node and recover manifests, radios, and route intelligence | Coastal raid |
+| M3 | Stranglehold | Establish vehicle checkpoints and observation posts to control population movement and screen displaced persons after M2 | Checkpoint and security operation |
 | M4 | Deliverance | Recover isolated personnel from hostile urban fringe terrain and preserve operational momentum | Personnel recovery |
+| M5 | Open Hands | Conduct medical outreach in a civilian area affected by the fighting, collecting local intelligence while providing care | MEDCAP / civil-military operation |
 | M6 | Thunder and Lightning | Seize a military complex and route junction to break the enemy's urban defensive belt | Mechanized deliberate attack |
+| M7 | Iron Council | HQ staff exercise and wargame for the inland exploitation phase, synthesizing M1-M6 intelligence into a pursuit plan | Planning and wargaming exercise |
 | M8 | Window Shopping | Cordon and clear a market or industrial district, proving Umar escaped inland | Urban cordon and assault |
 
 #### Phase II - Inland pursuit and network reduction
@@ -106,9 +110,13 @@ Primary mission line:
 | Mission | Working title | Role in campaign | Recommended mission type |
 | --- | --- | --- | --- |
 | M10 | Untitled pursuit opener | Locate retreat corridors, caches, and first interior logistics hubs | Wide-area sweep |
+| M11 | Eagle Eye | Aviation reconnaissance over interior approach corridors to locate retreat routes, camp activity, and convoy patterns | Aerial reconnaissance / ISR mission |
 | M12 | Untitled camp strike | Raid or air assault a rural camp complex tied to WMD transit | Air assault or raid |
+| M13 | Pathfinder | Deep reconnaissance sweep across a second interior sector, hunting for WMD transit indicators, camp infrastructure, and sanctuary approach routes | Deep reconnaissance sweep |
 | M14 | Untitled interdiction strike | Hit a convoy, depot, or crossing point moving Umar's support personnel | Interdiction attack |
+| M15 | Iron Road | Armored route clearance and security along supply lines deeper into the interior, securing the logistics backbone for exploitation missions | Route reconnaissance and security |
 | M16 | Untitled WMD recovery | Secure a hardened site containing WMD stockpiles, precursors, or technical documentation | Deliberate objective seizure |
+| M17 | Anvil | Armored engagement against the enemy's captured heavy-weapons group, destroying the last conventional threat before the final sanctuary assault | Armored meeting engagement |
 
 #### Phase III - Final encirclement
 
@@ -136,6 +144,20 @@ Each mission should hand the next one a clear continuity package:
 - what new risk the task force now carries
 
 Campaign progression should feel cumulative. The enemy loses freedom of movement first, then logistics depth, then sanctuary, and only at the end loses the ability to preserve Umar.
+
+### Secondary mission design guidance
+
+Odd-numbered missions (M1, M3, M5, M7, M11, M13, M15, M17) are **secondary missions** designed for HQ and specialized task-force elements rather than the full maneuver force.
+
+Secondary mission characteristics:
+
+- **Smaller scale:** section to platoon playable force instead of company
+- **Specialized task units:** Ranger, aviation, armor, medical, support, or HQ staff rather than combined-arms maneuver
+- **Support role:** each secondary mission sets conditions for the next primary mission by providing intelligence, security, sustainment, or planning
+- **Shorter duration:** designed for one- to two-hour play sessions with focused objectives
+- **Canon contribution:** secondary mission outcomes feed the campaign continuity loop and may alter conditions for the next primary mission
+
+Secondary missions run between primary missions in campaign chronology. A secondary mission that fails or is skipped should degrade the conditions for the next primary mission rather than block the campaign sequence entirely.
 
 ### Tasks to subordinate elements
 

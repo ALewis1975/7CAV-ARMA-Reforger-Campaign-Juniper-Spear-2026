@@ -229,6 +229,162 @@ Recommended platform use:
 
 The process is working when it:
 
+### Phase III - Initial Conduct
+
+#### Operational concept
+
+Task Force Iron Vanguard executes the coastal and urban break-in that establishes operational momentum and strips Umar of his littoral shield. This phase covers the first campaign mission block and should end with proof that the network has displaced inland.
+
+#### Mission line
+
+| Mission | Working title | Campaign role | Primary form | Task unit |
+| --- | --- | --- | --- | --- |
+| M1 | Tripwire | Ranger recon and HUMINT along the littoral to map the smuggling network before the main raid | Special reconnaissance / HUMINT patrol | Ranger platoon attachment |
+| M2 | Dealbreaker | Raid a coastal facilitator node and recover manifests, radios, and route intelligence | Coastal raid | 1-7 CAV (reinforced) |
+| M3 | Stranglehold | Establish checkpoints and observation posts to control population movement and screen displaced persons | Checkpoint and security operation | HQ / support elements with host-nation security |
+| M4 | Deliverance | Recover isolated personnel and preserve momentum on the urban fringe | Personnel recovery | 1-7 CAV (reinforced) |
+| M5 | Open Hands | Medical outreach in a civilian area affected by the fighting, collecting local intelligence while providing care | MEDCAP / civil-military operation | Medical section with security element |
+| M6 | Thunder and Lightning | Seize a military complex and route junction to break the urban defensive belt | Mechanized deliberate attack | 1-7 CAV (reinforced) |
+| M7 | Iron Council | HQ staff exercise and wargame for the inland exploitation phase, synthesizing M1-M6 intelligence | Planning and wargaming exercise | Task Force Iron Vanguard HQ |
+| M8 | Window Shopping | Cordon and clear a market or industrial district and confirm inland escape | Urban cordon and assault | 1-7 CAV (reinforced) |
+
+#### Tasks by major element
+
+| Element | Phase III tasks |
+| --- | --- |
+| Task Force Iron Vanguard HQ | Sequence M1-M8 for cumulative intelligence gain and tempo preservation; lead M7 planning exercise |
+| 1-7 CAV (reinforced) | Conduct the main raid, rescue, breakthrough, and urban assault actions |
+| Air assault company attachment | Provide blocking positions, rooftop or compound seizure, and rapid repositioning |
+| Ranger platoon attachment | Support HVT capture windows and sensitive-site exploitation |
+| 2-12 ARS-equivalent screen | Seal reinforcement lanes and monitor retreat routes out of the city |
+| 2-227 AVN-equivalent detachment | Lift QRF elements, support CASEVAC, and extend operational reach |
+| 7-17 CAV-equivalent detachment | Escort aviation and suppress technical-mounted counterattacks |
+| Host-nation security forces | Hold cordons, secure detainees, assume control of cleared facilities |
+| Urban police / gendarmerie | Restore checkpoint and crowd-control posture after key objectives are seized |
+
+---
+
+### Phase IV - Exploitation
+
+#### Operational concept
+
+With the enemy forced out of exposed coastal and urban nodes, the campaign transitions to inland pursuit, network reduction, WMD recovery, and sanctuary isolation. This is the decisive phase for collapsing Umar's ability to preserve his network and sanctuary system.
+
+#### Mission line
+
+| Mission | Working title | Campaign role | Primary form | Task unit |
+| --- | --- | --- | --- | --- |
+| M10 | Pursuit opener | Locate retreat corridors, caches, and first interior logistics hubs | Wide-area sweep | 1-7 CAV (reinforced) |
+| M11 | Eagle Eye | Aviation reconnaissance over interior approach corridors to locate retreat routes, camp activity, and convoy patterns | Aerial reconnaissance / ISR mission | 7-17 CAV-equivalent detachment (attack reconnaissance) or 2-227 AVN-equivalent detachment (aerial observation) |
+| M12 | Camp strike | Raid or air assault a rural complex tied to WMD transit | Air assault or raid | 1-7 CAV (reinforced) |
+| M13 | Pathfinder | Deep reconnaissance sweep across a second interior sector, hunting for WMD transit indicators and sanctuary approach routes | Deep reconnaissance sweep | Aviation / ISR element |
+| M14 | Interdiction strike | Hit a convoy, depot, or crossing point moving Umar support personnel | Interdiction attack | 1-7 CAV (reinforced) |
+| M15 | Iron Road | Armored route clearance and security along interior supply lines, securing the logistics backbone for exploitation missions | Route reconnaissance and security | 2-12 ARS-equivalent screen or armor element |
+| M16 | WMD recovery | Secure a hardened site containing stockpiles, precursors, or technical records | Deliberate objective seizure | 1-7 CAV (reinforced) |
+| M17 | Anvil | Armored engagement against the enemy's captured heavy-weapons group, destroying the last conventional threat before the sanctuary assault | Armored meeting engagement | Armor / mechanized element |
+| M18 | Final encirclement | Encircle and assault Umar's sanctuary or border stronghold | Multi-axis final assault | 1-7 CAV (reinforced) |
+
+#### Tasks by major element
+
+| Element | Phase IV tasks |
+| --- | --- |
+| Joint Task Force Juniper HQ | Retask campaign priority toward sanctuary reduction and WMD-site exploitation |
+| Task Force Iron Vanguard HQ | Maintain pressure across multiple lanes without losing the main effort |
+| 1-7 CAV (reinforced) | Execute the decisive sweep, raid, seizure, and final assault actions |
+| Air assault company attachment | Conduct vertical envelopment, pursuit blocks, and retreat denial |
+| Ranger platoon attachment | Support sensitive-site exploitation and sanctuary breach shaping |
+| 2-12 ARS-equivalent screen | Fix or track retreating packets and identify breakout attempts |
+| 115 BSB-equivalent support node | Sustain distributed operations across long lines and support contamination-control requirements |
+| 2-227 AVN-equivalent detachment | CASEVAC, resupply, raid support, and rapid repositioning |
+| 7-17 CAV-equivalent detachment | Armed reconnaissance, convoy disruption, and overwatch during final isolation |
+| Border guard regiment and regional forces | Support frontier containment and deny external reinforcement or escape |
+
+---
+
+### Phase V - Stability
+
+#### Operational concept
+
+After the destruction of Umar's sanctuary network, campaign activity shifts to securing recovered sites, processing detainees and evidence, transferring terrain to partner control, and preserving freedom of action against residual cells.
+
+#### Forces required by function or capability
+
+- Site security and exploitation
+- Detainee handling and consequence management
+- Route security and fixed-site handoff
+- Civil affairs, information, and legitimacy support
+
+#### Tasks by major element
+
+| Element | Phase V tasks |
+| --- | --- |
+| Joint Task Force Juniper HQ | Direct transition priorities, theater messaging, and follow-on security framework |
+| Task Force Iron Vanguard HQ | Consolidate gains, support handoff, and maintain reserve combat power against spoilers |
+| 1-7 CAV (reinforced) | Secure decisive sites until host-nation forces can assume control |
+| 115 BSB-equivalent support node | Support site exploitation, sustainment, recovery, and medical operations |
+| Host-nation security forces | Assume control of cleared compounds, districts, depots, and detainee sites |
+| Urban police / gendarmerie | Re-establish civil control and checkpoint presence |
+| Local intelligence bureau | Exploit captured media and detainees into residual-network targeting |
+| Regional stabilization mission | Secure relief corridors and reinforce legitimacy in sensitive zones |
+
+### Secondary mission design concept
+
+The campaign follows a dual-track mission structure drawn from the original OJS schedule. Even-numbered missions (M2, M4, M6, M8, M10, M12, M14, M16, M18) are **primary missions** run by the main maneuver force at platoon or company scale. Odd-numbered missions (M1, M3, M5, M7, M11, M13, M15, M17) are **secondary missions** designed for HQ and specialized task-force elements.
+
+#### Secondary mission characteristics
+
+- **Smaller scale:** section to platoon playable force
+- **Specialized task units:** Ranger platoon, aviation detachment, armor/reconnaissance screen, medical section, support elements, or HQ staff
+- **Condition-setting role:** each secondary mission shapes the next primary mission by providing reconnaissance, security, sustainment, planning, or civil engagement
+- **Shorter duration:** designed for focused one- to two-hour sessions
+- **Canon contribution:** secondary mission outcomes feed the campaign continuity workflow and may upgrade or degrade conditions for the following primary mission
+
+#### Secondary mission sequencing
+
+Secondary missions run between primary missions in campaign chronology. Each secondary mission sits immediately before the primary mission it supports:
+
+- M1 → shapes M2 (Ranger recon feeds the coastal raid)
+- M3 → shapes M4 (checkpoint intelligence feeds the personnel recovery)
+- M5 → shapes M6 (civil engagement and medical intel feeds the breakthrough plan)
+- M7 → shapes M8 (exploitation planning feeds the cordon-and-assault)
+- M11 → shapes M12 (aerial recon feeds the camp strike)
+- M13 → shapes M14 (deep recon feeds the interdiction strike)
+- M15 → shapes M16 (route security feeds the WMD-site seizure)
+- M17 → shapes M18 (armor engagement clears the way for the final assault)
+
+A secondary mission that fails or is skipped should degrade conditions for the next primary mission (harder start, less intelligence, degraded support) rather than block the campaign sequence.
+
+### Information and civil effects guidance
+
+- Undermine enemy freedom of movement and confidence in sanctuary.
+- Increase civilian willingness to avoid, report, or abandon enemy-controlled nodes.
+- Counter enemy intimidation, propaganda, and coercion.
+- Preserve the legitimacy of friendly and partner operations by minimizing unnecessary destruction and maintaining disciplined site control.
+
+### Coordinating instructions
+
+- Every mission must reinforce the coast-city-interior-sanctuary campaign spine.
+- Mission outcomes should alter conditions, not replace the sequence.
+- Use fail-forward logic instead of hard resets wherever possible.
+- Recovered documents, detainees, media, and site evidence should feed the campaign continuity workflow.
+- The next mission handoff must state what was confirmed, what remains unresolved, and which route, site, or person becomes the next focal point.
+
+## 7. Sustainment
+
+- Sustainment should remain mobile, expeditionary, and visibly constrained.
+- CASEVAC planning is mandatory in littoral and interior operations.
+- WMD-linked objectives require contamination-control, isolation, and controlled exploitation procedures.
+- Distribution, vehicle recovery, and casualty support must keep pace with dispersed maneuver rather than rely on static rear-area abundance.
+
+## 8. Command and signal
+
+- Campaign command remains battalion-led in the playable space with higher headquarters shaping the wider theater.
+- Command posts, logistics hubs, aviation support zones, and holding areas should shift as operations move inland.
+- Debriefs, OPSUMs, AARs, and handoff products should use repository templates so campaign canon stays traceable across sessions.
+
+## Planning end state for this draft
+
+This campaign plan is intended to serve as the campaign-level planning baseline that sits above individual OPORDs and below the broader adaptation guidance. It should be used as the narrative and operational template for future mission briefs, continuity updates, and campaign-state decisions.
 - preserves mission tempo and intent without ad hoc controller escalation
 - reduces manual rewrite work for AARs and follow-on orders
 - keeps canon traceable to reviewed source packets

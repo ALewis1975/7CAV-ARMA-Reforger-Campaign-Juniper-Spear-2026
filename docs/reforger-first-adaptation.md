@@ -158,14 +158,22 @@ The campaign should treat the original source missions as intent and remake them
 
 | Original mission | Reforger-first adaptation | Role in campaign |
 | --- | --- | --- |
+| M1 - Tripwire (secondary) | Ranger recon and HUMINT patrol along the littoral to map pirate facilitators and smuggling routes | Shapes M2; first contact with the network; seeds initial intelligence picture |
 | M2 - Dealbreaker | Coastal or riverine raid against pirate-militia facilitators linked to Ahmad Umar | Opens the campaign, establishes the coastal network, seeds the WMD thread |
+| M3 - Stranglehold (secondary) | Checkpoint and observation-post operation to control population movement and screen displaced persons | Shapes M4; hardens the cordon; collects tactical intelligence from fleeing civilians |
 | M4 - Deliverance | Downed-aircraft rescue in hostile urban fringe terrain | Escalates the threat and forces entry into contested suburbs |
+| M5 - Open Hands (secondary) | Medical outreach and civil-military engagement in a civilian area affected by the fighting | Shapes M6; builds civil cooperation; collects local intelligence on enemy positions |
 | M6 - Thunder and Lightening | Mechanized breakthrough to seize a military complex, highway node, and sustainment route | Creates the decisive shift from raid tempo to deliberate combined-arms operations |
+| M7 - Iron Council (secondary) | HQ staff planning exercise and wargame for the inland exploitation phase | Shapes M8; synthesizes M1-M6 intelligence into a pursuit plan |
 | M8 - Window Shopping | Cordon and assault in market and industrial districts, ending with proof the HVT escaped inland | Closes Phase I and transitions the campaign to pursuit |
 | M10 | Wide-area sweep to locate retreat routes, caches, and first interior logistics hubs | Opens Phase II |
+| M11 - Eagle Eye (secondary) | Aviation reconnaissance over interior approach corridors to locate retreat routes and convoy patterns | Shapes M12; locates camps and confirms pursuit axis |
 | M12 | Raid or air assault on a rural camp complex tied to WMD transit | Builds operational pressure |
+| M13 - Pathfinder (secondary) | Deep reconnaissance sweep across a second interior sector for WMD transit indicators and sanctuary routes | Shapes M14; narrows interdiction targeting |
 | M14 | Strike on a convoy, depot, or crossing point used to move HVT support personnel | Cuts the network apart |
+| M15 - Iron Road (secondary) | Armored route clearance and security along interior supply lines | Shapes M16; secures the logistics backbone for exploitation missions |
 | M16 | Recovery of WMD stockpile, precursor material, or technical documentation from a hardened site | Delivers the strategic payoff |
+| M17 - Anvil (secondary) | Armored meeting engagement against the enemy's captured heavy-weapons group | Shapes M18; destroys the last conventional threat before the final assault |
 | M18 | Final encirclement and assault on Ahmad Umar's sanctuary | Campaign climax |
 
 ## First four mission specs
@@ -225,6 +233,122 @@ The campaign should treat the original source missions as intent and remake them
 - confirm Ahmad Umar escaped inland through a prepared corridor
 
 **Why it fits Reforger:** closes the city phase with a dense but bounded objective and a clean transition to the interior campaign.
+
+## Secondary mission specs
+
+Secondary missions are smaller, focused sessions designed for HQ and specialized task-force elements. Each one sits immediately before the primary mission it supports and shapes conditions for that mission.
+
+### M1 - Tripwire
+
+**Mission type:** special reconnaissance / HUMINT patrol  
+**Terrain need:** littoral fishing villages, dock areas, pirate anchorages, coastal paths  
+**Playable force:** Ranger section or fire team with interpreter support  
+**Core tasks:**
+
+- conduct covert reconnaissance along the littoral
+- make contact with pirate facilitators and collect HUMINT
+- map smuggling routes and facilitator locations
+- identify the target compound for M2
+
+**Why it fits Reforger:** gives the Ranger element a focused first mission that builds the intelligence picture and sets up the coastal raid.
+
+### M3 - Stranglehold
+
+**Mission type:** checkpoint and security operation  
+**Terrain need:** road junctions, urban approach corridors, observation positions overlooking population movement  
+**Playable force:** HQ or support section with host-nation security attachment  
+**Core tasks:**
+
+- establish vehicle checkpoints on key littoral corridors
+- screen displaced persons fleeing the coastal fighting
+- collect tactical intelligence from fleeing civilians
+- identify indicators of enemy command or logistics movement
+
+**Why it fits Reforger:** creates a low-intensity but intelligence-rich session that lets support and HQ elements contribute directly to the campaign.
+
+### M5 - Open Hands
+
+**Mission type:** MEDCAP / civil-military operation  
+**Terrain need:** civilian settlement, clinic, or market area affected by recent fighting  
+**Playable force:** medical section with infantry security cordon  
+**Core tasks:**
+
+- provide medical treatment to civilians in an affected area
+- collect local intelligence on enemy positions and movement
+- build civilian cooperation and goodwill
+- identify informants or sources willing to support follow-on operations
+
+**Why it fits Reforger:** gives the medical section a standalone mission that contributes both humanitarian and intelligence value between combat missions.
+
+### M7 - Iron Council
+
+**Mission type:** planning and wargaming exercise  
+**Terrain need:** TOC or command post location (may be virtual or map-based)  
+**Playable force:** HQ staff element and key leaders  
+**Core tasks:**
+
+- synthesize intelligence from M1-M6 into a coherent pursuit plan
+- wargame the inland exploitation phase
+- identify key decision points, branch plans, and resource requirements
+- produce a draft exploitation OPORD for the Phase IV mission block
+
+**Why it fits Reforger:** gives the HQ element a dedicated planning session that transforms raw intelligence into operational direction and prepares the campaign transition.
+
+### M11 - Eagle Eye
+
+**Mission type:** aerial reconnaissance / ISR mission  
+**Terrain need:** interior approach corridors, suspected camp areas, road networks  
+**Playable force:** aviation section (7-17 CAV-equivalent detachment or 2-227 AVN-equivalent detachment) with limited ground security  
+**Core tasks:**
+
+- conduct aerial reconnaissance over interior approach corridors
+- locate retreat routes, camp activity, and convoy patterns
+- mark targets of opportunity for the ground force
+- report findings to the campaign intelligence fusion cell
+
+**Why it fits Reforger:** gives the aviation element a focused ISR mission that feeds directly into the first interior raid.
+
+### M13 - Pathfinder
+
+**Mission type:** deep reconnaissance sweep  
+**Terrain need:** deeper interior sector, secondary road networks, suspected WMD transit lanes  
+**Playable force:** aviation or mounted reconnaissance element  
+**Core tasks:**
+
+- sweep a second interior sector for WMD transit indicators
+- identify camp infrastructure, storage sites, and sanctuary approach routes
+- confirm or deny earlier intelligence from M11
+- narrow the targeting picture for the interdiction strike
+
+**Why it fits Reforger:** extends the reconnaissance chain deeper into the interior and provides the targeting data needed for M14.
+
+### M15 - Iron Road
+
+**Mission type:** route reconnaissance and security  
+**Terrain need:** interior supply routes, crossing sites, defiles, and chokepoints  
+**Playable force:** armored or mounted reconnaissance platoon (2-12 ARS-equivalent screen)  
+**Core tasks:**
+
+- conduct route clearance along interior supply lines
+- secure the logistics backbone needed for WMD-site exploitation
+- identify and destroy route-denial obstacles or ambush positions
+- establish security positions for follow-on sustainment movement
+
+**Why it fits Reforger:** gives the armor and reconnaissance screen a standalone mission that directly enables the decisive WMD-recovery operation.
+
+### M17 - Anvil
+
+**Mission type:** armored meeting engagement  
+**Terrain need:** open terrain with armor-suitable avenues of approach, defensible positions, hull-down terrain  
+**Playable force:** armor or mechanized platoon  
+**Core tasks:**
+
+- engage the enemy's captured heavy-weapons group in a meeting engagement
+- destroy or neutralize the last significant conventional threat
+- clear the approach for the final sanctuary assault
+- recover captured equipment or prisoners for intelligence exploitation
+
+**Why it fits Reforger:** delivers a pure armored-combat mission that removes the enemy's last heavy capability and sets conditions for M18.
 
 ## Vertical-slice target
 
