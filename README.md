@@ -59,7 +59,7 @@ The current mission plan is summarized below from the [campaign plan draft](docs
 | M17 | Anvil | Armored engagement against the enemy's captured heavy-weapons group, destroying the last conventional threat before the sanctuary assault |
 | M18 | Final encirclement | Encircle and assault Umar's sanctuary or border stronghold |
 
-Odd-numbered missions are secondary shaping missions and even-numbered missions are primary main-effort missions. See [`docs/campaign-plan-draft.md`](docs/campaign-plan-draft.md) for the full phase structure, task-unit breakdown, and sequencing details.
+Per the dual-track structure in the campaign plan, odd-numbered missions are secondary shaping missions and even-numbered missions are primary main-effort missions; the sequence intentionally skips M9. See [`docs/campaign-plan-draft.md`](docs/campaign-plan-draft.md) for the full phase structure, task-unit breakdown, and sequencing details.
 
 ## What developers, mission makers, and staff should read first
 
