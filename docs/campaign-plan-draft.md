@@ -275,7 +275,7 @@ With the enemy forced out of exposed coastal and urban nodes, the campaign trans
 | Mission | Working title | Campaign role | Primary form | Task unit |
 | --- | --- | --- | --- | --- |
 | M10 | Pursuit opener | Locate retreat corridors, caches, and first interior logistics hubs | Wide-area sweep | 1-7 CAV (reinforced) |
-| M11 | Eagle Eye | Aviation reconnaissance over interior approach corridors to locate retreat routes, camp activity, and convoy patterns | Aerial reconnaissance / ISR mission | 7-17 CAV-equivalent or 2-227 AVN detachment |
+| M11 | Eagle Eye | Aviation reconnaissance over interior approach corridors to locate retreat routes, camp activity, and convoy patterns | Aerial reconnaissance / ISR mission | 7-17 CAV-equivalent detachment (attack reconnaissance) or 2-227 AVN-equivalent detachment (aerial observation) |
 | M12 | Camp strike | Raid or air assault a rural complex tied to WMD transit | Air assault or raid | 1-7 CAV (reinforced) |
 | M13 | Pathfinder | Deep reconnaissance sweep across a second interior sector, hunting for WMD transit indicators and sanctuary approach routes | Deep reconnaissance sweep | Aviation / ISR element |
 | M14 | Interdiction strike | Hit a convoy, depot, or crossing point moving Umar support personnel | Interdiction attack | 1-7 CAV (reinforced) |

@@ -298,7 +298,7 @@ Secondary missions are smaller, focused sessions designed for HQ and specialized
 
 **Mission type:** aerial reconnaissance / ISR mission  
 **Terrain need:** interior approach corridors, suspected camp areas, road networks  
-**Playable force:** aviation section (7-17 CAV or 2-227 AVN detachment) with limited ground security  
+**Playable force:** aviation section (7-17 CAV-equivalent detachment or 2-227 AVN-equivalent detachment) with limited ground security  
 **Core tasks:**
 
 - conduct aerial reconnaissance over interior approach corridors
