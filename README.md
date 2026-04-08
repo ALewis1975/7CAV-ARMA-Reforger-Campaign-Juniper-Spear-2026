@@ -28,6 +28,39 @@ The intended campaign flow is:
 4. secure WMD-related sites
 5. finish with a final HVT encirclement
 
+## Mission plan
+
+The current mission plan is summarized below from the [campaign plan draft](docs/campaign-plan-draft.md).
+
+### Phase III - Initial Conduct
+
+| Mission | Working title | Campaign role |
+| --- | --- | --- |
+| M1 | Tripwire | Ranger recon and HUMINT along the littoral to map the smuggling network before the main raid |
+| M2 | Dealbreaker | Raid a coastal facilitator node and recover manifests, radios, and route intelligence |
+| M3 | Stranglehold | Establish checkpoints and observation posts to control population movement and screen displaced persons |
+| M4 | Deliverance | Recover isolated personnel and preserve momentum on the urban fringe |
+| M5 | Open Hands | Medical outreach in a civilian area affected by the fighting, collecting local intelligence while providing care |
+| M6 | Thunder and Lightning | Seize a military complex and route junction to break the urban defensive belt |
+| M7 | Iron Council | HQ staff exercise and wargame for the inland exploitation phase, synthesizing M1-M6 intelligence |
+| M8 | Window Shopping | Cordon and clear a market or industrial district and confirm inland escape |
+
+### Phase IV - Exploitation
+
+| Mission | Working title | Campaign role |
+| --- | --- | --- |
+| M10 | Pursuit opener | Locate retreat corridors, caches, and first interior logistics hubs |
+| M11 | Eagle Eye | Aviation reconnaissance over interior approach corridors to locate retreat routes, camp activity, and convoy patterns |
+| M12 | Camp strike | Raid or air assault a rural complex tied to WMD transit |
+| M13 | Pathfinder | Deep reconnaissance sweep across a second interior sector, hunting for WMD transit indicators and sanctuary approach routes |
+| M14 | Interdiction strike | Hit a convoy, depot, or crossing point moving Umar support personnel |
+| M15 | Iron Road | Armored route clearance and security along interior supply lines, securing the logistics backbone for exploitation missions |
+| M16 | WMD recovery | Secure a hardened site containing stockpiles, precursors, or technical records |
+| M17 | Anvil | Armored engagement against the enemy's captured heavy-weapons group, destroying the last conventional threat before the sanctuary assault |
+| M18 | Final encirclement | Encircle and assault Umar's sanctuary or border stronghold |
+
+Per the dual-track structure in the campaign plan, odd-numbered missions are secondary shaping missions and even-numbered missions are primary main-effort missions; the sequence intentionally skips M9. See [`docs/campaign-plan-draft.md`](docs/campaign-plan-draft.md) for the full phase structure, task-unit breakdown, and sequencing details.
+
 ## What developers, mission makers, and staff should read first
 
 - [Reforger-first adaptation guide](docs/reforger-first-adaptation.md) - overall campaign direction, design pillars, and mission-line adaptation
