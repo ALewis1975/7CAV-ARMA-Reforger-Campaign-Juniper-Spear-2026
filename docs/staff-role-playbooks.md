@@ -88,11 +88,11 @@ Collect and normalize the raw material needed for reliable post-mission synthesi
 - completed intake packet
 - source list with missing items called out
 
-## Continuity officer
+## Continuity officer *(AI agent)*
 
 ### Purpose
 
-Protect canon, traceability, and consistency across missions.
+Protect canon, traceability, and consistency across missions. This billet is filled by an AI agent operating under human oversight. The agent drafts continuity assessments and ledger changes; campaign leadership retains final approval authority.
 
 ### Pre-mission checklist
 
@@ -111,11 +111,11 @@ Protect canon, traceability, and consistency across missions.
 - approved or rejected ledger changes
 - continuity notes for the next planner
 
-## Intel and order drafter
+## Intel and order drafter *(AI agent)*
 
 ### Purpose
 
-Turn approved facts into usable staff products with minimal rewrite effort.
+Turn approved facts into usable staff products with minimal rewrite effort. This billet is filled by an AI agent operating under human oversight. The agent drafts staff products from the approved ledger; campaign leadership retains final approval authority.
 
 ### Pre-mission checklist
 

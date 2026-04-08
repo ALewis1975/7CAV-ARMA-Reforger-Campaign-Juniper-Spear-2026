@@ -128,8 +128,8 @@ To reduce the burden on scarce officers and controllers, split campaign work int
 - mission commander
 - controller or GM
 - AAR curator
-- continuity officer
-- intel and order drafter
+- continuity officer *(AI agent)*
+- intel and order drafter *(AI agent)*
 
 Each billet should have:
 
