@@ -6,6 +6,16 @@ This warning order reframes Campaign Juniper Spear as a single campaign-wide ope
 
 It keeps the original campaign spine of coastal entry, urban fighting, inland pursuit, WMD recovery, and final HVT encirclement while shifting the setting into the fictional **Hadir Littoral** and **Daryan Interior** battlespaces.
 
+## Doctrinal frame
+
+This WARNO should be interpreted through the campaign's doctrine baseline in [U.S. Military doctrine integration](us-military-doctrine-integration.md). In practice, that means the warning order assumes:
+
+- a battalion task force operating inside a wider joint and partner-force campaign
+- reconnaissance and security missions that deliberately shape the next decisive action
+- urban operations that prioritize isolation, controlled clearance, and civilian-risk management
+- stability and legitimacy tasks beginning during the fight, not only after it
+- WMD-linked objectives handled as secure-site and exploitation problems under CBRN-aware controls
+
 ## Header
 
 - Operation: Juniper Spear 2026

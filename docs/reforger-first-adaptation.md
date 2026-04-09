@@ -6,6 +6,27 @@ This document resets Campaign Juniper Spear 2026 as a terrain-first ARMA Reforge
 
 The design goal is to preserve the original campaign spine while adapting it to a modern RHS-based combined-arms experience that fits Reforger mission scale, terrain limits, and player counts.
 
+## Doctrine anchor
+
+The adaptation should now be read through a U.S. Army and joint doctrine baseline, centered on:
+
+- **ADP 3-0, Operations**
+- **ADP 5-0, The Operations Process**
+- **ADP 6-0, Mission Command: Command and Control of Army Forces**
+- **FM 3-90, Tactics**
+- **FM 3-98, Reconnaissance and Security Operations**
+- **FM 3-06, Urban Operations**
+- **FM 3-99, Airborne and Air Assault Operations**
+- **ADP 3-07, Stability**
+- **JP 3-0, Joint Campaigns and Operations**
+- **JP 3-07, Joint Stabilization Activities**
+- **JP 3-11, Operations in Chemical, Biological, Radiological, and Nuclear (CBRN) Environments**
+- **JP 3-18, Joint Forcible Entry Operations**
+
+This doctrine baseline does not change the fictional theater. It changes how the campaign's scope should be interpreted: battalion-led combined-arms action nested in a wider joint campaign, with reconnaissance, urban control, civil legitimacy, air assault, and WMD-site security all treated as core campaign functions rather than optional flavor.
+
+See [U.S. Military doctrine integration](us-military-doctrine-integration.md) for the full doctrinal crosswalk.
+
 ## Design pillars
 
 1. Keep the campaign spine, not the exact geography.
@@ -13,6 +34,9 @@ The design goal is to preserve the original campaign spine while adapting it to 
 3. Build missions for platoon and company execution, not for full brigade simulation.
 4. Let briefings, radio traffic, and background activity represent the wider battalion fight.
 5. Preserve the WMD hunt, coastal entry, urban fights, inland pursuit, and final HVT encirclement.
+6. Treat odd-numbered missions as doctrinal shaping operations for the next decisive action.
+7. Treat WMD objectives as secure-site and exploitation problems, not pure destruction targets.
+8. Keep civilian control, restrictive ROE, and partner-force handoff inside the campaign scope from the opening phase onward.
 
 ## Theater reframing
 

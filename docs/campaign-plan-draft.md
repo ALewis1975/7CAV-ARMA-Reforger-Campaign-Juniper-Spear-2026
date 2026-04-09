@@ -6,6 +6,30 @@ This document turns the repository's existing continuity workflow into a 7CAV ca
 
 It is an organizational and staff-process plan, not a live-mission automation design.
 
+## Doctrine baseline
+
+This campaign plan should be read as a battalion-level combined-arms campaign nested inside a wider joint operation. Its scope is anchored to the doctrine baseline collected in [U.S. Military doctrine integration](us-military-doctrine-integration.md), especially:
+
+- **ADP 3-0, Operations**
+- **ADP 5-0, The Operations Process**
+- **ADP 6-0, Mission Command: Command and Control of Army Forces**
+- **FM 3-90, Tactics**
+- **FM 3-98, Reconnaissance and Security Operations**
+- **FM 3-06, Urban Operations**
+- **FM 3-99, Airborne and Air Assault Operations**
+- **ADP 3-07, Stability**
+- **JP 3-0, Joint Campaigns and Operations**
+- **JP 3-11, Operations in Chemical, Biological, Radiological, and Nuclear (CBRN) Environments**
+- **JP 3-18, Joint Forcible Entry Operations**
+
+Within this plan, that means:
+
+- primary missions should read as decisive operations executed by the main maneuver force
+- secondary missions should read as reconnaissance, security, sustainment, planning, civil, or shaping operations that set conditions for the next decisive action
+- urban missions should emphasize isolation, control, and disciplined application of combat power
+- WMD-linked targets should be handled as secure-site and exploitation problems
+- campaign products should preserve purpose, key tasks, end state, and assessed follow-on implications
+
 ## Operating model
 
 The campaign should run on two layers:

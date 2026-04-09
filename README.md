@@ -64,6 +64,7 @@ Per the dual-track structure in the campaign plan, odd-numbered missions are sec
 ## What developers, mission makers, and staff should read first
 
 - [Reforger-first adaptation guide](docs/reforger-first-adaptation.md) - overall campaign direction, design pillars, and mission-line adaptation
+- [U.S. Military doctrine integration](docs/us-military-doctrine-integration.md) - doctrine baseline and campaign crosswalk for the Juniper Spear concept
 - [Campaign plan draft](docs/campaign-plan-draft.md) - campaign-level plan built from the original OJS campaign-plan structure and current Juniper Spear 2026 lore
 - [Campaign WARNO draft](docs/campaign-warno-draft.md) - campaign-level operational framing and phase structure
 - [Campaign ORBAT draft](docs/campaign-orbat-draft.md) - friendly, partner, and hostile force structure
@@ -78,6 +79,7 @@ Per the dual-track structure in the campaign plan, odd-numbered missions are sec
 The active design material lives under [`docs/`](docs/):
 
 - [`docs/reforger-first-adaptation.md`](docs/reforger-first-adaptation.md)
+- [`docs/us-military-doctrine-integration.md`](docs/us-military-doctrine-integration.md)
 - [`docs/campaign-plan-draft.md`](docs/campaign-plan-draft.md)
 - [`docs/campaign-warno-draft.md`](docs/campaign-warno-draft.md)
 - [`docs/campaign-orbat-draft.md`](docs/campaign-orbat-draft.md)
@@ -129,6 +131,7 @@ That directory also holds a sample 7CAV OPORD PDF that can be used as a referenc
 Current repository status:
 
 - campaign setting reframed into the fictional **Hadir Littoral** and **Daryan Interior**
+- campaign scope anchored to a U.S. Army and joint doctrine baseline for combined-arms, urban, stability, reconnaissance, and WMD-site operations
 - original campaign-plan structure now adapted into a current Reforger-first draft campaign plan
 - mission line mapped from the original source into a Reforger-first campaign structure
 - reporting and continuity templates prepared for campaign operations
